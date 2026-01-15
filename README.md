@@ -82,7 +82,7 @@ sudo python3 sniffer.py
 
 You should see output similar to:
 
-![demo1](https://github.com/user-attachments/assets/e5047a50-bd4e-4d91-b528-6d1753a2ea46)
+![demo1](https://github.com/user-attachments/assets/12ca0b89-da4f-401f-af85-88128098cdb8)
 
 The sniffer runs continuously until interrupted.
 
@@ -91,7 +91,7 @@ The sniffer runs continuously until interrupted.
 ## Preview results
 You can simply preview the saved metadata by openning log.db
 
-![demo2](https://github.com/user-attachments/assets/f94b63d4-dd17-44c6-95ca-cc9b01bf279e)
+![demo2](https://github.com/user-attachments/assets/10f37e2d-9236-439d-a57a-7c8d4dd85155)
 
 
 ## Future Improvements
