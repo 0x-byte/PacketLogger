@@ -24,7 +24,7 @@ PacketLogger is a lightweight network packet metadata collector built with **Pyt
 .
 ├── PacketLogger.py        # Main packet sniffer
 ├── init_db.py        # Initializes the SQLite database
-├── ids.db            # SQLite database (created after init)
+├── log.db            # SQLite database (created after init)
 └── README.md
 ```
 
@@ -70,7 +70,7 @@ Run the database initialization script:
 python3 init_db.py
 ```
 
-This will create the `ids.db` file and the required tables.
+This will create the `log.db` file and the required tables.
 
 ---
 
@@ -82,14 +82,17 @@ sudo python3 sniffer.py
 
 You should see output similar to:
 
-```
-Sniffer started. Writing to ids.db
-{'ts': 1700000000.12, 'src': '192.168.1.10', 'dst': '8.8.8.8', 'sport': 54321, 'dport': 443, 'proto': 'TCP', 'flags': 'S'}
-```
+![demo1](https://github.com/user-attachments/assets/e5047a50-bd4e-4d91-b528-6d1753a2ea46)
 
 The sniffer runs continuously until interrupted.
 
 ---
+
+## Preview results
+You can simply preview the saved metadata by openning log.db
+
+![demo2](https://github.com/user-attachments/assets/f94b63d4-dd17-44c6-95ca-cc9b01bf279e)
+
 
 ## Future Improvements
 
